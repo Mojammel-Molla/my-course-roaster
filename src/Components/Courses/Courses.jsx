@@ -11,9 +11,10 @@ const Courses = () => {
   }, []);
 
   return (
-    <div>
-      <h1> Courses:{AllCourses.length}</h1>
-      <Course AllCourses={AllCourses}></Course>
+    <div className="w-2/3 grid grid-cols-3 gap-5 ">
+      {AllCourses.map(course => (
+        <Course key={course.id} course={course}></Course>
+      ))}
     </div>
   );
 };
