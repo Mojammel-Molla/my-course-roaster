@@ -1,0 +1,65 @@
+[
+  {
+    "id": "course001",
+    "title": "Introduction to Computer Science",
+    "description": "Learn the fundamentals of computer science and programming.",
+    "duration": "1",
+    "image": "https://i.ibb.co/QrRbWNj/1599394965277.jpg"
+  },
+  {
+    "id": "course002",
+    "title": "Data Analysis with Python",
+    "description": "Master data analysis techniques using Python and popular libraries.",
+    "duration": "2",
+    "image": "https://i.ibb.co/BNn1MQ6/GPVs-HOl-RBBI-HD.jpg"
+  },
+  {
+    "id": "course003",
+    "title": "Web Development Bootcamp",
+    "description": "Build responsive and interactive websites from scratch.",
+    "duration": "10",
+    "image": "https://i.ibb.co/FBwVB6R/Untitled-1-1.png"
+  },
+  {
+    "id": "course004",
+    "title": "Machine Learning Fundamentals",
+    "description": "Dive into the world of machine learning and artificial intelligence.",
+    "duration": "5",
+    "image": "https://i.ibb.co/fvbT4fR/gbm07q6i1zkn0em0jd74-1.webp"
+  },
+  {
+    "id": "course005",
+    "title": "Digital Marketing Strategy",
+    "description": "Create effective digital marketing campaigns and strategies.",
+    "duration": "6",
+    "image": "https://i.ibb.co/19Tw1Xv/Digital-marketing.jpg"
+  },
+  {
+    "id": "course006",
+    "title": "Graphic Design Essentials",
+    "description": "Learn the principles of graphic design and create stunning visuals.",
+    "duration": "5",
+    "image": "https://i.ibb.co/cLZtfqK/48c3630df36f004eb7bdebf07f955254e07233dd.webp"
+  },
+  {
+    "id": "course007",
+    "title": "Financial Planning and Investments",
+    "description": "Gain expertise in personal finance and investment strategies.",
+    "duration": "3",
+    "image": "https://i.ibb.co/YZpRZs8/1677221929623.jpg"
+  },
+  {
+    "id": "course008",
+    "title": "Business Ethics and Leadership",
+    "description": "Explore ethical decision-making and effective leadership practices.",
+    "duration": "2",
+    "image": "https://i.ibb.co/rfvw8Jq/1520144551246.jpg"
+  },
+  {
+    "id": "course009",
+    "title": "Creative Writing Workshop",
+    "description": "Enhance your writing skills and unlock your creative potential.",
+    "duration": "4",
+    "image": "https://i.ibb.co/sKkdrfj/istockphoto-537487389-2048x2048.jpg"
+  }
+]
