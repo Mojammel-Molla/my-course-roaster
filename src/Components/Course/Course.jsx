@@ -1,6 +1,6 @@
 import Dollar from '../../assets/dollar-sign 1.png';
 import Frame from '../../assets/Frame (1).png';
-const Course = ({ course }) => {
+const Course = ({ course, handleCourse, handlePrice, handleRemaining }) => {
   console.log(course);
   const { title, image, description, duration, price } = course;
   return (
@@ -16,7 +16,14 @@ const Course = ({ course }) => {
         <img src={Frame} alt="" />
         <span>Credit:{duration} hr</span>
       </div>
-      <button className="bg-blue-600 text-white my-2 px-24 py-2 rounded-lg">
+      <button
+        onClick={() => {
+          handleRemaining(duration),
+            handlePrice(price, duration),
+            handleCourse(course);
+        }}
+        className="bg-blue-600 text-white my-2 px-24 py-2 rounded-lg"
+      >
         Select
       </button>
     </div>
