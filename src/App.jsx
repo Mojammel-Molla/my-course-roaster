@@ -16,12 +16,6 @@ function App() {
     cartItems.forEach(element => {
       count += element.duration;
     });
-    let price = course.price;
-
-    cartItems.forEach(item => {
-      price += item.price;
-    });
-    setPrice(price);
 
     const isExist = cartItems.find(item => item.id == course.id);
     if (isExist) {
@@ -38,6 +32,12 @@ function App() {
       setHours(count);
       setRemaining(20 - count);
     }
+
+    let price = course.price;
+    cartItems.forEach(item => {
+      price += item.price;
+    });
+    setPrice(price);
   };
 
   return (
