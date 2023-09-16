@@ -5,7 +5,7 @@ const Courses = ({ handleCourse, hours }) => {
   const [AllCourses, setAllCourses] = useState([]);
 
   useEffect(() => {
-    fetch('../../../public/Courses.json')
+    fetch('./Courses.json')
       .then(res => res.json())
       .then(data => setAllCourses(data));
   }, []);
