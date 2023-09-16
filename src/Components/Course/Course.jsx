@@ -1,7 +1,6 @@
 import Dollar from '../../assets/dollar-sign 1.png';
 import Frame from '../../assets/Frame (1).png';
-const Course = ({ course, handleCourse, handlePrice, handleRemaining }) => {
-  console.log(course);
+const Course = ({ course, handleCourse }) => {
   const { title, image, description, duration, price } = course;
   return (
     <div className="shadow-lg rounded-lg">
@@ -18,9 +17,7 @@ const Course = ({ course, handleCourse, handlePrice, handleRemaining }) => {
       </div>
       <button
         onClick={() => {
-          handleRemaining(duration),
-            handlePrice(price, duration),
-            handleCourse(course);
+          handleCourse(course);
         }}
         className="bg-blue-600 text-white my-2 px-24 py-2 rounded-lg"
       >

@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
 import Course from '../Course/Course';
-const Courses = ({ handleCourse, handlePrice, handleRemaining }) => {
+const Courses = ({ handleCourse, hours }) => {
   const [AllCourses, setAllCourses] = useState([]);
 
   useEffect(() => {
@@ -17,8 +17,7 @@ const Courses = ({ handleCourse, handlePrice, handleRemaining }) => {
           key={course.id}
           course={course}
           handleCourse={handleCourse}
-          handlePrice={handlePrice}
-          handleRemaining={handleRemaining}
+          hours={hours}
         ></Course>
       ))}
     </div>
