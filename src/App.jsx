@@ -25,7 +25,7 @@ function App() {
 
     const isExist = cartItems.find(item => item.id == course.id);
     if (isExist) {
-      return alert('You have already added!');
+      return toast.warn('You have already added!');
     } else {
       if (count <= 20) {
         const newCartItems = [...cartItems, course];
@@ -33,7 +33,7 @@ function App() {
       }
     }
     if (count > 20) {
-      return alert('You have already added!');
+      return toast.warn('You have no hours left!');
     } else {
       setHours(count);
       setRemaining(20 - count);
@@ -56,6 +56,7 @@ function App() {
           ></Carts>
         </div>
       </div>
+      <ToastContainer position="top-center" />;
     </>
   );
 }
